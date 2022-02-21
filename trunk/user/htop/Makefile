@@ -23,8 +23,8 @@ config_test:
 	fi )
 
 configure:
-	./autogen.sh
 	( cd $(SRC_NAME) ; \
+	./autogen.sh; \
 	./configure \
 		--prefix=/usr \
 		--enable-unicode \
