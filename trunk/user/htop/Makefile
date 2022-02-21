@@ -26,6 +26,7 @@ autogen:
 	./autogen.sh
 
 configure:
+	./autogen.sh
 	( cd $(SRC_NAME) ; \
 	./configure \
 		--prefix=/usr \
