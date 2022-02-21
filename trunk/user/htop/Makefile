@@ -22,9 +22,6 @@ config_test:
 		make configure && touch config_done; \
 	fi )
 
-autogen:
-	./autogen.sh
-
 configure:
 	./autogen.sh
 	( cd $(SRC_NAME) ; \
